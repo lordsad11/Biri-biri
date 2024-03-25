@@ -57,14 +57,12 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             )
         ]
     ]
-    if SUPPORT_CHANNEL and SUPPORT_GROUP:
+    if SUPPORT_CHANNEL and OWNER:
         buttons.append(
             [
                 InlineKeyboardButton(
                     text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"
-                ),
-                InlineKeyboardButton(
-                    text=_["S_B_3"], url=f"{SUPPORT_GROUP}"
+                    
                 ),
             ]
         )
@@ -77,40 +75,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                     )
                 ]
             )
-        if SUPPORT_GROUP:
-            buttons.append(
-                [
-                    InlineKeyboardButton(
-                        text=_["S_B_3"], url=f"{SUPPORT_GROUP}"
-                    )
-                ]
-            )
-    buttons.append(
-        [
-            InlineKeyboardButton(
-                text=_["S_B_5"],
-                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-            )
-        ]
-    )
-    if GITHUB_REPO and OWNER:
-        buttons.append(
-            [
-                InlineKeyboardButton(text=_["S_B_7"], user_id=OWNER),
-                InlineKeyboardButton(
-                    text=_["S_B_6"], url=f"https://github.com/iamuput/NezukoMusic"
-                ),
-            ]
-        )
-    else:
-        if GITHUB_REPO:
-            buttons.append(
-                [
-                    InlineKeyboardButton(
-                        text=_["S_B_6"], url=f"https://github.com/iamuput/NezukoMusic"
-                    ),
-                ]
-            )
+            
         if OWNER:
             buttons.append(
                 [
@@ -121,9 +86,35 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             )
     buttons.append(
         [
+            InlineKeyboardButton(
+                text=_["S_B_5"],
+                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+            )
+        ]
+    )
+    if GITHUB_REPO:
+        buttons.append(
+            [
+                
+                InlineKeyboardButton(
+                    text=_["S_B_6"], url=f"https://github.com/"
+                ),
+            ]
+        )
+    else:
+        if GITHUB_REPO:
+            buttons.append(
+                [
+                    InlineKeyboardButton(
+                        text=_["S_B_6"], url=f"https://github.com/"
+                    ),
+                ]
+            )
+    buttons.append(
+        [
             InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG"),
             InlineKeyboardButton(
-                text="Donate", url="https://telegra.ph//file/fff8a7d2f139def8d684c.jpg"
+                text="Donate", url="https://telegra.ph//file/ab858687bea52e9dde445.jpg"
             ),
         ]
                   )
