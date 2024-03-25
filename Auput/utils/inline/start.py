@@ -45,36 +45,11 @@ def start_pannel(_):
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
-            InlineKeyboardButton(
-                text=_["S_B_8"], callback_data="settings_back_helper"
-            )
+            InlineKeyboardButton(text=_["S_B_8"], callback_data="settings_back_helper"),
+            InlineKeyboardButton(text="CH", url=f"https://t.me/strbzul"),
+            InlineKeyboardButton(text="OWNER", url="https://t.me/ownedbyrain"),
         ]
     ]
-    if SUPPORT_CHANNEL and OWNER:
-        buttons.append(
-            [
-                InlineKeyboardButton(text="CH", url=f"https://t.me/strbzul"),
-                InlineKeyboardButton(text="OWNER", url="https://t.me/ownedbyrain"),
-            ]
-        )
-    else:
-        if SUPPORT_CHANNEL:
-            buttons.append(
-                [
-                    InlineKeyboardButton(
-                        text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"
-                    )
-                ]
-            )
-            
-        if OWNER:
-            buttons.append(
-                [
-                    InlineKeyboardButton(
-                        text=_["S_B_7"], user_id=6743589204
-                    ),
-                ]
-            )
     buttons.append(
         [
             InlineKeyboardButton(
