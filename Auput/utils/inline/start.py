@@ -38,14 +38,7 @@ def start_pannel(_):
                     )
                 ]
             )
-        if SUPPORT_GROUP:
-            buttons.append(
-                [
-                    InlineKeyboardButton(
-                        text=_["S_B_3"], url=f"{SUPPORT_GROUP}"
-                    )
-                ]
-            )
+        
     return buttons
 
 
@@ -60,10 +53,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     if SUPPORT_CHANNEL and OWNER:
         buttons.append(
             [
-                InlineKeyboardButton(
-                    text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"
-                    
-                ),
+                InlineKeyboardButton(text=_["CH"], url=f"https://t.me/strbzul"),
+                InlineKeyboardButton(text="OWNER", url="https://t.me/ownedbyrain"),
             ]
         )
     else:
@@ -80,7 +71,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text=_["S_B_7"], user_id=OWNER
+                        text=_["S_B_7"], user_id=6743589204
                     ),
                 ]
             )
