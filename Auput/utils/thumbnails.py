@@ -33,20 +33,20 @@ async def gen_thumb(videoid):
                 title = re.sub("\W+", " ", title)
                 title = title.title()
             except:
-                title = "Unsupported Title"
+                title = "Judul nya ga ke detek"
             try:
                 duration = result["duration"]
             except:
-                duration = "Unknown Mins"
+                duration = "durasi ga ke detek"
             thumbnail = result["thumbnails"][0]["url"].split("?")[0]
             try:
                 views = result["viewCount"]["short"]
             except:
-                views = "Unknown Views"
+                views = "ga ada yang nonton njir"
             try:
                 channel = result["channel"]["name"]
             except:
-                channel = "Unknown Channel"
+                channel = "ga ke detek"
 
         async with aiohttp.ClientSession() as session:
             async with session.get(thumbnail) as resp:
