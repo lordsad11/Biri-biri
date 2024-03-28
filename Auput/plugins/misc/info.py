@@ -102,7 +102,7 @@ async def userstatus(user_id):
 
 # --------------------------------------------------------------------------------- #
 
-@Alya.on_message(filters.command(["info", "userinfo"]))
+@Alya.on_message(filters.command(["info", "i"]))
 async def userinfo(_, message):
     chat_id = message.chat.id
     user_id = message.from_user.id
