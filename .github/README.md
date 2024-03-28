@@ -1,9 +1,9 @@
 #  ˹Nᴇᴢᴜᴋᴏ Mᴜsɪᴄ˼ 
 
-<p align="center"><img src="https://telegra.ph//file/bbdab35972d61a0cae983.jpg" width="300"></a></p>
+<p align="center"><img src="https://telegra.ph/file/c394b9d3247403031589d.png" width="300"></a></p>
 <p align="center">
 
-*Test Bot ➣ [NezukoMusic](https://t.me/NezukoMusicRobot)*
+*Test Bot ➣ [NezukoMusic](https://t.me/Zullmbot)*
 
 <p align="center">
 <b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
@@ -20,7 +20,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [NecessaryVariables](https://github.com/iamuput/NezukoMusic/blob/master/sample.env)
+- Get your [NecessaryVariables](https://github.com/apasihco/NezukoMusic/blob/master/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
@@ -32,7 +32,7 @@
 - Install Node js by :
 `curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
-`git clone https://github.com/iamuput/NezukoMusic && cd NezukoMusic`
+`git clone https://github.com/iamuput/Auput && cd Auput`
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
@@ -53,12 +53,10 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </h3>
 
 <p align="center">
-<a href="https://telegram.me/UputtSupport"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/mawingsupportt"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
-<a href="https://telegram.me/NezukoMusicRobot"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/zullmbot"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
-
-- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʏᴜᴋᴋɪ](https://github.com/TeamYukki) ғᴏʀ [ʏᴜᴋᴋɪ ᴍᴜsɪᴄ ʙᴏᴛ](https://github.com/TeamYukki/YukkiMusicBot)_ </b>
