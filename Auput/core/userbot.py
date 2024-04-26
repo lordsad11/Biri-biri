@@ -53,8 +53,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("mawingsupportt")
-                await self.one.join_chat("strbzul")
+                await self.one.join_chat("fakeSupportt")
+                await self.one.join_chat("gwehnc")
             except:
                 pass
             assistants.append(1)
@@ -83,8 +83,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("mawingsupportt")
-                await self.two.join_chat("strbzul")
+                await self.two.join_chat("fakeSupportt")
+                await self.two.join_chat("gwehnc")
             except:
                 pass
             assistants.append(2)
@@ -113,8 +113,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("mawingsupportt")
-                await self.three.join_chat("strbzul")
+                await self.three.join_chat("fakeSupportt")
+                await self.three.join_chat("gwehnc")
             except:
                 pass
             assistants.append(3)
@@ -143,8 +143,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("mawingsupportt")
-                await self.four.join_chat("strbzul")
+                await self.four.join_chat("fakeSupportt")
+                await self.four.join_chat("gwehnc")
             except:
                 pass
             assistants.append(4)
@@ -173,8 +173,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("mawingsupportt")
-                await self.five.join_chat("strbzul")
+                await self.five.join_chat("fakeSupportt")
+                await self.five.join_chat("gwehnc")
             except:
                 pass
             assistants.append(5)
