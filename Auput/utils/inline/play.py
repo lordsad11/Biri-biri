@@ -55,11 +55,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text="ᴍᴇ",
-                url=f"https://t.me/{OWNER_USERNAME}",
+                url=f"https://t.me/malespakeidd{OWNER_USERNAME}",
             ),
             InlineKeyboardButton(
                 text="ᴄʜᴀɴɴᴇʟ",
-                url=f"{SUPPORT_CHANNEL}",
+                url=f"https://t.me/fakeSupportt{SUPPORT_CHANNEL}",
             ),
         ],
         [
@@ -116,11 +116,11 @@ def telegram_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text="ᴍᴇ",
-                url=f"https://t.me/{OWNER_USERNAME}",
+                url=f"https://t.me/@alespakeidd{OWNER_USERNAME}",
             ),
             InlineKeyboardButton(
                 text="ᴄʜᴀɴɴᴇʟ",
-                url=f"{SUPPORT_CHANNEL}",
+                url=f"https://t.me/fakeSupportt{SUPPORT_CHANNEL}",
             ),
         ],
         [
