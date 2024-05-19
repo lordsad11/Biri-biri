@@ -15,11 +15,8 @@ LOGGER = getLogger(__name__)
 
 
 uputlogo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://graph.org/file/5317bd3fc2281f9c29a33.jpg",
+    "https://graph.org/file/61017d3309818d69e8c49.jpg",
 ]
 
 
