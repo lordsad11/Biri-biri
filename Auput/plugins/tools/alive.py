@@ -15,10 +15,10 @@ async def kontolmasukmemek(client: Client, message: Message):
             [
                [
             InlineKeyboardButton(
-                text="A", url=f"https://t.me/malespakeidd{OWNER_USERNAME}"
+                text="A", url=f"https://t.me/(OWNER_USERNAME}"
             ),
             InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/fakeSupportt{SUPPORT_CHANNEL}"
+                text="ᴄʜᴀɴɴᴇʟ", url=f"(SUPPORT_CHANNEL}"
             ),
         ],
                 [
