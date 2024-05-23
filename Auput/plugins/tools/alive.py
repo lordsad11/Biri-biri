@@ -15,7 +15,7 @@ async def kontolmasukmemek(client: Client, message: Message):
             [
                [
             InlineKeyboardButton(
-                text="A", url=f"https://t.me/(OWNER_USERNAME}"
+                text="bismillahhhh", url=f"https://t.me/(OWNER_USERNAME}"
             ),
             InlineKeyboardButton(
                 text="ᴄʜᴀɴɴᴇʟ", url=f"(SUPPORT_CHANNEL}"
